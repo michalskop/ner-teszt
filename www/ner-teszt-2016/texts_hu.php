@@ -4,60 +4,60 @@
 */
 $text = array(
 
-  'test_code' => 'ner-teszt-2016-hu',
-  'template_code' => 'ner-teszt-2016',
-  'source_code' => 'source-hu',
-  'lang' => 'hu',
-  //meta
-  'author' => 'K-Monitor.hu',
-  'description' => 'K-Teszt',
-  'keywords' => 'corruption, test',
-  //fb
-  'og:image' => 'http://volebnakalkulacka.sk/image/logo.jpg',
-  'og:title' => 'K-Teszt',
-  'og:url' => 'k-teszt.hu',
-  'og:site_name' => 'K-Teszt',
+    'test_code' => 'ner-teszt-2016-hu',
+    'template_code' => 'ner-teszt-2016',
+    'source_code' => 'source-hu',
+    'lang' => 'hu',
+    //meta
+    'author' => 'K-Monitor.hu',
+    'description' => 'NER-Teszt',
+    'keywords' => 'corruption, test',
+    //fb
+    'og:image' => 'http://volebnakalkulacka.sk/image/logo.jpg',
+    'og:title' => 'NER-Teszt',
+    'og:url' => 'k-monitor.hu/ner-teszt',
+    'og:site_name' => 'NER-Teszt',
 
-  //old browsers
-  'ie8' => 'No support for IE 8 and older, sorry.',
-  'opera11' => 'No support for Opera 11 and older, sorry.',
+    //old browsers
+    'ie8' => 'No support for IE 8 and older, sorry.',
+    'opera11' => 'No support for Opera 11 and older, sorry.',
 
-  //google analytics tracking id
-  'google_tracking_id' => 'UA-62774054-1',
+    //google analytics tracking id
+    'google_tracking_id' => 'UA-62774054-1',
 
-  //title
-  'title' => 'K-Teszt',
+    //title
+    'title' => 'NER-Teszt',
 
-  //PAGE
-  'test_name' => 'K-Teszt',
-  'next' => 'KÖVETKEZÕ',
-  'page_results' => 'Eredmény',
+    //PAGE
+    'test_name' => 'NER-Teszt',
+    'next' => 'KÖVETKEZÕ',
+    'page_results' => 'Eredmény',
 
-  //footer
-  'author_link' => 'http://k-monitor.hu',
-  'licence' => 'Creative Commons BY 4.0',
-  'year' => '2015',
-  'footer_text' => '',
+    //footer
+    'author_link' => 'http://k-monitor.hu',
+    'licence' => 'Creative Commons BY 4.0',
+    'year' => '2016',
+    'footer_text' => '',
 
 
-  //RESULTS (MATCH)
-  'message_20' => 'Nagyon alacsony korrupciós hajlandóság.',
-  'message_40' => 'Alacsony korrupciós hajlandóság.',
-  'message_60' => 'Átlagos korrupciós hajlandóság.',
-  'message_80' => 'Magas korrupciós hajlandóság.',
-  'message_100' => 'Nagyon magas korrupciós hajlandóság.',
+    //RESULTS (MATCH)
+    'message_20' => 'A rendszer kérlelhetetlen ellenzéke vagy.',
+    'message_40' => 'Tőled inkább távol áll a rendszer.',
+    'message_60' => 'Ellentmondásos a viszonyod a rendszerhez.',
+    'message_80' => 'A mostani rezsim jobbára a te világod.',
+    'message_100' => 'Az Orbán-rendszert neked találták ki.',
 
-  'description_20' => 'Az eredmények alapján az átlagnál jóval kevésbé jellemzőek rád azok az értékek, melyek hajlamosabbá tesznek a korrupcióra. A baráti kapcsolataid ápolása közben rendszerint tekintettel vagy a tágabb közösségre, közösségekre is. Csak így tovább!',
-  'description_40' => 'Az eredmények alapján az átlagnál kevésbé jellemzőek rád azok az értékek, melyek hajlamosabbá tesznek a korrupcióra. A baráti kapcsolataid ápolása közben többnyire tekintettel vagy a tágabb közösségre, közösségekre is.',
-  'description_60' => 'Az eredmények alapján átlagos mértékben jellemzőek rád azok az értékek, melyek hajlamosabbá tesznek a korrupcióra. A jövőben igyekezz baráti kapcsolataid ápolása közben méginkább szem előtt tartani cselekedeteid tágabb közösséget érintő következményeit is.',
-  'description_80' => 'Az eredmények alapján az átlagnál nagyobb mértékben jellemzőek rád azok az értékek, melyek hajlamosabbá tesznek a korrupcióra. Előfordul, hogy baráti kapcsolataid ápolása közben nem veszed figyelembe cselekedeteid tágabb közösséget érintő következményeit. Ez még nem jelenti azt, hogy korrumpálható vagy, csak azt, hogy számodra az átlagnál nagyobb kihívást jelenthet ellenállni a korrupciós helyzetek erejének. Az, hogy ezzel tisztában vagy, már önmagában segíthet abban, hogy tudatosan megfelelő döntéseket hozz.',
-  'description_100' => 'Az eredmények alapján az átlagnál számottevően nagyobb mértékben jellemzőek rád azok az értékek, melyek hajlamosabbá tesznek a korrupcióra. Baráti kapcsolataid ápolása közben gyakran nem veszed figyelembe cselekedeteid tágabb közösséget érintő következményeit. Ez még nem jelenti azt, hogy korrumpálható vagy, csak azt, hogy számodra az átlagnál lényegesen nagyobb kihívást jelenthet ellenállni a korrupciós helyzetek erejének. Az, hogy ezzel tisztában vagy, már önmagában segíthet abban, hogy tudatosan megfelelő döntéseket hozz.',
+    'description_20' => 'A Nemzeti Együttműködés Rendszere nagyon távol áll tőled. Válaszaid alapján inkompetens bagázsnak tartod az ország mostani vezetését, akik rossz felé viszik az országot. Legszívesebben összekennéd ketchuppal őket alaptörvényestől. - Nézz körül a <a href=http://www.k-monitor.hu" target="_blank">K-Monitor adatbázisában</a>, ahol évek óta gyűjtjük a korrupciós híreket.',
+    'description_40' => 'Gyakran nem érted a Nemzeti Együttműködés Rendszerét. Néhány intézkedés kivételével lesújtó róla a véleményed. A többségnél rosszabbul ítéled meg, milyen irányba mennek a dolgok Magyarországon, ezért az Alaptörvény napja is hidegen hagy. - Nézz körül a <a href=http://www.k-monitor.hu" target="_blank">K-Monitor adatbázisában</a>, ahol évek óta gyűjtjük a korrupciós híreket.',
+    'description_60' => 'Nem vagy feltétlen híve a rendszernek, de számos intézkedésükkel már megbarátkoztál. Sok dolog zavar, de általában középen állsz a politikai vitákban. Az öt éves évforduló jó apropó, hogy átgondold a viszonyod az elmúlt évek folyamataival. - Nézz körül a <a href=http://www.k-monitor.hu" target="_blank">K-Monitor adatbázisában</a>, ahol évek óta gyűjtjük a korrupciós híreket.',
+    'description_80' => 'Jobban ítéled meg a mostani kurzust, mint az átlag. Ha nem is vagy feltétlen hívük, a rendszer fő elemei közül sokkal azonosulni tudsz. Ezekre jó szívvel gondolhatsz az Alaptörvény napján. - Nézz körül a <a href=http://www.k-monitor.hu" target="_blank">K-Monitor adatbázisában</a>, ahol évek óta gyűjtjük a korrupciós híreket.',
+    'description_100' => 'Sokkal pozitívabban látod a mostani rendszert, mint a kitöltők többsége. Hidd el, van mit ünnepelned az Alaptörvény napján. - Nézz körül a <a href=http://www.k-monitor.hu" target="_blank">K-Monitor adatbázisában</a>, ahol évek óta gyűjtjük a korrupciós híreket.',
 
-  'info' => 'Info',
-  'test' => 'K-Teszt',
-  'match_save' => 'Eredmények mentése',
-   //save
-   'result_save_description' => 'Ha bármikor szeretnéd újra szemügyre venni saját eredményed, ezen a címen megteheted:',
+    'info' => 'Info',
+    'test' => 'NER-Teszt',
+    'match_save' => 'Eredmények mentése',
+     //save
+     'result_save_description' => 'Ha bármikor szeretnéd újra szemügyre venni saját eredményed, ezen a címen megteheted:',
 
    //fb
    'result_fb_appid' => "862007567205589",
@@ -81,11 +81,11 @@ $text = array(
   'url' => 'http://k-teszt.hu',
 
 
-   //COMPARE
-  'compare_title' => 'Részletes összehasonlítás',
-   'result_close' => 'Bezár',
-   'average' => 'Átlag',
-   'your_value' => 'A te válaszod',
+    //COMPARE
+    'compare_title' => 'Részletes összehasonlítás',
+    'result_close' => 'Bezár',
+    'average' => 'Átlag',
+    'your_value' => 'A te válaszod',
 
 
     // DEMOGRAPHICS QUESTIONNAIRE
@@ -113,10 +113,7 @@ $text = array(
     'dg_edu_8' => 'egyetemi végzettségnél magasab',
     'dg_municipality' => 'Lakhelyed',
 
-    'info_text' => '<p>A K-Teszt a K-Monitor projektje, amely a korrupció szélesebb társadalmi összefüggéseire kíván rávilágítani. Célunk, hogy megmutassuk: a korrupció nem milliós vagy milliárdos csúszópénzek elfogadásával kezdődik, hanem hétköznapi szociális magatartásunkban gyökerezik. Ebből következően a korrupció elleni küzdelem is többről szól, mint a konkrét bűncselekmények felderítéséről vagy megelőzéséről. Fontos azoknak a társadalmi jelenségeknek a megismerése, amelyek a korrupció növekedéséhez vezethetnek, de az is fontos, hogy megértsük: a korrupció nem valami távoli, megfoghatatlan jelenség: mindennapi döntéseink során is jelen van, és egyéni felelősségünk, hogy tegyünk ellene.
-<p>A K-Teszt a kitöltőknek eredményeik alapján ötféle visszajelzést adhat. A kategóriák: nagyon alacsony korrupciós hajlandóság, alacsony korrupciós hajlandóság, átlagos korrupciós hajlandóság, magas korrupciós hajlandóság, valamint nagyon magas korrupciós hajlandóság. Mivel a korrupciós hajlandóságnak nincs mértékegysége, az eredmények csak egymáshoz képest értelmezhetők. A teszt a kategóriákat a korábbi kitöltők eredményeiből számolt átlaghoz képest határozza meg. A K-Teszt elméleti megalapozottságáról további információkat a Magyarázat részben találhatsz.
-<p>A K-Teszt pszichológiai megalapozásában való közreműködésükért köszönet:
-<p>Berkics Mihálynak (Eötvös Loránd Tudományegyetem, Pszichológiai Intézet) és Orosz Gábornak (Eötvös Loránd Tudományegyetem, Pszichológiai Intézet; MTA, TTK, Kognitív Idegtudományi és Pszichológiai Intézet)',
+    'info_text' => '<p>  Öt éve, 2011. április 25-án látta el kézjegyével Schmitt Pál köztársasági elnök Magyarország új alaptörvényét. Az évforduló kapcsán összeállítottunk egy kérdőívet, amivel lemérheted, neked találták-e ki a Nemzeti Együttműködés Rendszerét, egyetértesz-e annak legkarakteresebb intézkedéseivel. (A teszt kitöltése körülbelül 5 percet vesz igénybe.)',
 
     '1perc' => 'Támogasd a korrupció elleni küzdelmet adód 1%-ával!',
     '1perc_link' => 'http://k-monitor.hu/hirek/magyar-hirek/tamogasd-a-k-monitort-adod-1-aval',

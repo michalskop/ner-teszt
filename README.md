@@ -1,2 +1,2 @@
-# k-test
-K test
+# Ner-teszt
+Ner-teszt
