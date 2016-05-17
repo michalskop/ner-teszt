@@ -1,4 +1,4 @@
-            <div class="item{if ($key == 1)} active{/if}">  
+            <div class="item{if ($key == 1)} active{/if}">
               <div class="container">
                 <div class="carousel-caption center-block">
                   <!-- statement -->
@@ -8,14 +8,14 @@
                     </div> <!-- /.i-question -->
                   </div> <!-- /.o-question -->
                   <!-- /statement -->
-                  
+
                   <!-- question 1 -->
                   <div class="o-question question-q">
                     <div class="btn-toolbar" role="toolbar">
                       <h4 class="text-left">{$question['question_1']}</h4>
                     </div>
                     <div class="row">
-                      <div class="col-sm-2">
+                      <div class="col-sm-2 question-minmax">
                         {$question['min_1']}
                       </div>
                       <div class="col-sm-8">
@@ -30,20 +30,20 @@
                         </div>
                         <!--10-->
                       </div>
-                      <div class="col-sm-2">
+                      <div class="col-sm-2 question-minmax">
                         {$question['max_1']}
                       </div>
                     </div> <!-- /row -->
                   </div> <!-- /.o-question -->
                   <!-- /question 1 -->
-                  
+
                   <!-- question 2 -->
                   <div class="o-question question-r">
                     <div class="btn-toolbar" role="toolbar">
                       <h4 class="text-left">{$question['question_2']}</h4>
                     </div>
                     <div class="row">
-                      <div class="col-sm-2">
+                      <div class="col-sm-2 question-minmax">
                         {$question['min_2']}
                       </div>
                       <div class="col-sm-8">
@@ -58,22 +58,24 @@
                         </div>
                         <!--10-->
                       </div>
-                      <div class="col-sm-2">
+                      <div class="col-sm-2 question-minmax">
                         {$question['max_2']}
                       </div>
                     </div> <!-- /row -->
                   </div> <!-- /.o-question -->
                   <!-- /question 2 -->
-                  
-                  
+
+
                   <!-- question 3 -->
                   <div class="o-question question-s">
                     <div class="btn-toolbar" role="toolbar">
                       <h4 class="text-left">{$question['question_3']}</h4>
                     </div>
-                    <div class="row">     
-                      <div class="col-sm-2">
-                      </div>  
+                    <div class="row">
+                      <div class="col-sm-2 question-minmax">
+                          {$question['min_3']}
+                      </div>
+                      <!--0-->
                       <div class="col-sm-8">
                         <div class="btn-group" data-toggle="buttons">
                           {for $s=0 to 10}
@@ -82,19 +84,23 @@
                             </label>
                           {/for}
                         </div>
+                        <!--10-->
+                      </div>
+                      <div class="col-sm-2 question-minmax">
+                        {$question['max_3']}
                       </div>
                     </div> <!-- /row -->
                   </div> <!-- /.o-question -->
                   <!-- /question 3 -->
-                  
-                  <p class="vote-buttons"> 
+
+                  <p class="vote-buttons">
                     <div data-toggle="buttons" data-target="#carousel" data-slide="next">
                       <label class="btn btn-lg btn-warning vote-button" id="next-{$key}-{$question['id']}">
                         <input type="radio"  id="next-{$key}-{$question['id']}" value="1">{$text['next']} ></input>
                       </label>
                     </div> <!-- /buttons -->
                   <!-- /.vote-buttons -->
-                  
+
                 </div>
               </div>
             </div>

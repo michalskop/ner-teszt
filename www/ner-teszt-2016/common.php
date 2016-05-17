@@ -48,8 +48,8 @@ function get_user_values() {
 * calculate overall score
 */
 function calc_score($user) {
-    $pro = Array(1, 2, 4, 5, 8, 10, 11, 12);
-    $contra = Array(3, 6, 7, 9, 13, 14, 15);
+    $pro = Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
+    $contra = Array();
     $score = 0;
     $possible = 0;
     for ($i=1; $i<=15; $i++) {
@@ -62,7 +62,7 @@ function calc_score($user) {
         if (in_array($i,$pro))
             $score += $u;
         if (in_array($i,$contra))
-            $score += 10-$u; 
+            $score += 10-$u;
     }
     if ($possible == 0)
         return 0.5;
@@ -75,9 +75,9 @@ function calc_score($user) {
 /**
  * Convert a comma separated file into an associated array.
  * The first row should contain the array keys.
- * 
+ *
  * Example:
- * 
+ *
  * @param string $filename Path to the CSV file
  * @param string $delimiter The separator used in the file
  * @return array
@@ -90,7 +90,7 @@ function csv_to_array($filename='', $delimiter=',')
 {
 	if(!file_exists($filename) || !is_readable($filename))
 		return FALSE;
-	
+
 	$header = NULL;
 	$data = array();
 	if (($handle = fopen($filename, 'r')) !== FALSE)

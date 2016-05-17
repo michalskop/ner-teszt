@@ -1,13 +1,13 @@
 {extends file='main.tpl'}
     {block name=additionalHead}
-      <link href="../css/k-test-2015.css" rel="stylesheet">
+      <link href="../css/ner-teszt-2016.css" rel="stylesheet">
       <style>
         .header {
           background-image: none;
         }
       </style>
     {/block}
-    
+
     {block name=lastHead}
       <title>{$text['info']}</title>
     {/block}
@@ -21,14 +21,14 @@
       {$text['info_text']}
       </div>
    {/block}
-   
-   
+
+
    {block name=footer}
      <!-- Footer -->
      {include "page-footer.tpl"}
      <!-- /Footer -->
    {/block}
-   
+
    {block name=js}
      <!-- <script src="../js/page-ab.js"></script>-->
      <!-- js -->
