@@ -29,7 +29,7 @@ $averages = csv_to_array($afile);
 $averages = $averages[0];
 //print_r($averages);//die();
 $category = cat($score,$averages);
-$stars = 6-$category/20;
+$stars = $category/20;
 
 //this page
 $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] ;
@@ -96,7 +96,7 @@ if ((time()-filectime('averages_'.$lang.'.csv')) > 3600) {
 function cat($score, $averages) {
     for ($p=20;$p<100;$p = $p + 20) {
         if ($score <= $averages['n-'.$p]) {
-            return $p;   
+            return $p;
         }
     }
     return 100;
