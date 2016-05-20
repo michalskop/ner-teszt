@@ -62,23 +62,23 @@ $text = array(
    //fb
    'result_fb_appid' => "862007567205589",
   'result_fb_picture_link' => 'http://k-monitor.hu/skin_1/images/head/logo.jpg',
-  'result_fb_name' => 'A K-Teszt szerint:',
+  'result_fb_name' => 'A NER-Teszt szerint:',
   'result_fb_description_1' => '',
-  'result_fb_description' => 'K-Test',
-  'result_fb_redirect_link' => 'http://k-teszt.hu/',
-  'result_fb_link' => 'http://k-teszt.hu/',
-  'result_fb_action' => "[{'name':'Töltsd ki te is a K-Tesztet!','link':'http://k-teszt.hu/'}]",
+  'result_fb_description' => 'NER-Test',
+  'result_fb_redirect_link' => 'http://k-monitor.hu/ner-teszt/'
+  'result_fb_link' => 'http://k-monitor.hu/ner-teszt/',
+  'result_fb_action' => "[{'name':'Töltsd ki te is a NER-Tesztet!','link':'http://k-teszt.hu/'}]",
    'result_winner_share' => 'Oszd meg az eredményed Facebook-on!',
    'result_share' => 'Eredményed megosztása',
 
-  'fb_message_20' => 'Nagyon alacsony a korrupciós hajlandóságom.',
-  'fb_message_40' => 'Alacsony a korrupciós hajlandóságom.',
-  'fb_message_60' => 'Átlagos a korrupciós hajlandóságom.',
-  'fb_message_80' => 'Magas a korrupciós hajlandóságom.',
-  'fb_message_100' => 'Nagyon magas a korrupciós hajlandóságom.',
+  'fb_message_20' => 'A rendszer kérlelhetetlen ellenzéke vagy.',
+  'fb_message_40' => 'Tőled inkább távol áll az Orbán-rendszer.',
+  'fb_message_60' => 'Ellentmondásos a viszonyod a rendszerhez.',
+  'fb_message_80' => 'A mostani rezsim jobbára a te világod.',
+  'fb_message_100' => 'Az Orbán-rendszert neked találták ki.',
 
 
-  'url' => 'http://k-teszt.hu',
+  'url' => 'http://k-monitor.hu/ner-teszt/',
 
 
     //COMPARE
