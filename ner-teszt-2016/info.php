@@ -13,7 +13,7 @@ $lang = lang();
 include("texts_".$lang.".php");
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty/Smarty.class.php');
+require('../vendor/smarty/smarty/libs/Smarty.class.php');
 $smarty = new Smarty();
 
 $smarty->setTemplateDir('../smarty/templates/' . $text['template_code']);
